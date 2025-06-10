@@ -1218,7 +1218,7 @@
                         }
                     }
                 };
-                const apiKey = "AIzaSyAENz8Z47uov-EhdZnBSfhMZ0efK60szPE"; // API key is provided by the Canvas environment at runtime
+                const apiKey = "; // API key is provided by the Canvas environment at runtime
                 const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyAENz8Z47uov-EhdZnBSfhMZ0efK60szPE`;
 
                 console.log("[generateStoryboardPrompts] Initiating fetch for storyboard prompts with payload:", payload);
@@ -1360,8 +1360,8 @@
                             "height": imageHeight
                         }
                     };
-                    const apiKey = "AIzaSyCzBLGr4RfFHeOY-0K3Wq2rxRTYhTBdNOA; // API key is provided by the Canvas environment at runtime
-                    const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/imagen-3.0-generate-002:predict?key=${apiKey}`;
+                    const apiKey = "; // API key is provided by the Canvas environment at runtime
+                    const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/imagen-3.0-generate-002:predict?key=AIzaSyCzBLGr4RfFHeOY-0K3Wq2rxRTYhTBdNOA`;
 
                     console.log(`[generateImages] Initiating fetch for image ${i + 1}/${promptsToUse.length} with prompt: "${currentGenPrompt}"`);
 
@@ -1443,8 +1443,8 @@
                 });
 
                 const payload = { contents: chatHistory };
-                const apiKey = "AIzaSyAENz8Z47uov-EhdZnBSfhMZ0efK60szPE; // API key is provided by the Canvas environment at runtime
-                const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
+                const apiKey = "; // API key is provided by the Canvas environment at runtime
+                const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyAENz8Z47uov-EhdZnBSfhMZ0efK60szPE`;
 
                 console.log("[enhancePrompt] Initiating fetch for prompt enhancement with payload:", payload);
 
