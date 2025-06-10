@@ -550,7 +550,7 @@
                 <div id="upload-input-container-div" class="upload-input-container">
                     <input type="file" id="upload-input" multiple accept="image/*">
                     <span>
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
                             <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z"/>
                             <path d="M0 0h24v24H0z" fill="none"/>
                         </svg>
@@ -641,7 +641,7 @@
                 alertStoryboardEmpty: "The AI generated an empty storyboard. Please try a different theme.",
                 alertStoryboardParseError: "Failed to parse storyboard prompts from AI. Please try again.",
                 alertStoryboardLLMContentError: "Could not generate storyboard prompts. The AI might not have returned valid content. Please try again.",
-                alertImageGenHTTPError: "Error generating image: ",
+                alertImageGenHTTPError: "Error generating image. This might be due to an API key configuration issue in the environment. Please contact support if this persists.",
                 alertImageGenNoPrediction: "Error: Could not generate one or more images. The image generation service might not have returned valid image data. Please try a different prompt or fewer images.",
                 alertImageGenUnhandledError: "An unexpected error occurred during image generation. Please check the console for details and try again.",
                 alertEnhancePromptEmpty: "Please enter a prompt to enhance.",
@@ -674,7 +674,7 @@
                 themeSystem: "Hệ thống",
                 themeLight: "Sáng",
                 themeDark: "Tối",
-                mainTitle: "🎵 Trình tạo Video Âm nhạc 🎬",
+                mainTitle: "🎵 Trình tạo Video Âm nhạc �",
                 mainDescription: "Nhập một lời nhắc để tạo chuỗi hình ảnh hoặc tải lên hình ảnh của riêng bạn. Phát chúng dưới dạng trình chiếu cùng với âm nhạc yêu thích của bạn!",
                 tabAiCreate: "Tạo bằng AI",
                 tabUploadImages: "Tải lên Hình ảnh",
@@ -709,7 +709,7 @@
                 alertStoryboardEmpty: "AI đã tạo một kịch bản trống. Vui lòng thử một chủ đề khác.",
                 alertStoryboardParseError: "Không thể phân tích cú pháp gợi ý kịch bản từ AI. Vui lòng thử lại.",
                 alertStoryboardLLMContentError: "Không thể tạo gợi ý kịch bản. AI có thể không trả về nội dung hợp lệ. Vui lòng thử lại.",
-                alertImageGenHTTPError: "Lỗi tạo hình ảnh: ",
+                alertImageGenHTTPError: "Lỗi tạo hình ảnh. Điều này có thể do sự cố cấu hình khóa API trong môi trường. Vui lòng liên hệ với bộ phận hỗ trợ nếu sự cố này vẫn tiếp diễn.",
                 alertImageGenNoPrediction: "Lỗi: Không thể tạo một hoặc nhiều hình ảnh. Dịch vụ tạo hình ảnh có thể không trả về dữ liệu hình ảnh hợp lệ. Vui lòng thử một lời nhắc khác hoặc độ phân giải nhỏ hơn.",
                 alertImageGenUnhandledError: "Đã xảy ra lỗi không mong muốn trong quá trình tạo hình ảnh. Vui lòng kiểm tra bảng điều khiển để biết chi tiết và thử lại.",
                 alertEnhancePromptEmpty: "Vui lòng nhập lời nhắc để nâng cao.",
@@ -777,7 +777,7 @@
                 alertStoryboardEmpty: "La IA generó un guion gráfico vacío. Por favor, intente con un tema diferente.",
                 alertStoryboardParseError: "No se pudo analizar las sugerencias del guion gráfico de la IA. Por favor, intente de nuevo.",
                 alertStoryboardLLMContentError: "No se pudieron generar las sugerencias del guion gráfico. Es posible que la IA no haya devuelto contenido válido. Por favor, intente de nuevo.",
-                alertImageGenHTTPError: "Error al generar la imagen: ",
+                alertImageGenHTTPError: "Error al generar la imagen. Esto podría deberse a un problema de configuración de la clave API en el entorno. Si el problema persiste, póngase en contacto con el soporte técnico.",
                 alertImageGenNoPrediction: "Error: No se pudo generar una o más imágenes. Es posible que el servicio de generación de imágenes no haya devuelto datos de imagen válidos. Por favor, intente con una instrucción diferente o una resolución más pequeña.",
                 alertImageGenUnhandledError: "Ocurrió un error inesperado durante la generación de la imagen. Por favor, revise la consola para más detalles e intente de nuevo.",
                 alertEnhancePromptEmpty: "Por favor, ingrese una sugerencia para mejorar.",
@@ -845,7 +845,7 @@
                 alertStoryboardEmpty: "AI 生成了一个空的故事板。请尝试不同的主题。",
                 alertStoryboardParseError: "无法从AI解析故事板提示。请重试。",
                 alertStoryboardLLMContentError: "无法生成故事板提示。AI 可能没有返回有效内容。请重试。",
-                alertImageGenHTTPError: "生成图片时出错：",
+                alertImageGenHTTPError: "生成图片时出错。这可能是由于环境中的API密钥配置问题。如果问题仍然存在，请联系支持人员。",
                 alertImageGenNoPrediction: "错误：无法生成一张或多张图片。图片生成服务可能未返回有效的图片数据。请尝试不同的提示或更小的分辨率。",
                 alertImageGenUnhandledError: "生成图片时发生意外错误。请检查控制台以获取详细信息并重试。",
                 alertEnhancePromptEmpty: "请输入要增强的提示。",
@@ -1832,3 +1832,4 @@
     </script>
 </body>
 </html>
+�
